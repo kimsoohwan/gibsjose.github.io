@@ -273,9 +273,10 @@ jets = setInterval(function() {
 			console.log("All done...");
 			ctx.fillStyle = 'rgba(0, 0, 0, 0)';
 			ctx.fillRect(0, 0, window_width, window_height);
+			ctx.clearRect(0, 0, window_width, window_height);
 			collided = false;
 			timeout = false;
-			//clearInterval(jets);
+			clearInterval(jets);
 		}
     }
 
