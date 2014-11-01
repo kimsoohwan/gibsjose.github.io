@@ -262,7 +262,7 @@ jets = setInterval(function() {
 			createParticle();
 		}
 
-		if(particles.length > 0) {
+		if(particles.length > 2) {
 			console.log("# particles = " + particles.length);
 			repaint();
 		} else {
