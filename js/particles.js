@@ -247,7 +247,7 @@ function particleCollision() {
 particleCollision();
 
 // Magic method for animation!
-setInterval(function() {
+jets = setInterval(function() {
     if(collided == true) {
 		if(timeout == false) {
 			createParticle();
@@ -256,9 +256,10 @@ setInterval(function() {
 		if(particles.length > 0) {
 			repaint();
 		} else {
-			//ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
-			//ctx.fillRect(0, 0, window_width, window_height);
+			ctx.fillStyle = 'rgba(0, 0, 0, 0)';
+			ctx.fillRect(0, 0, window_width, window_height);
 			ctx.clearRect(0, 0, window_width, window_height);
+			clearInterval(jets);
 		}
     }
 
