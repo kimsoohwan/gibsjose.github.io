@@ -1,4 +1,20 @@
+#canvas-container {
+   width: 100%;
+   text-align:center;
+}
 
+canvas {
+   display: inline;
+}
+
+#img-container {
+	width: 100%;
+	text-align:center;
+}
+
+img {
+	display: inline;
+}
 
 h1 {
 	font-family: 'Lato', sans-serif;
@@ -47,6 +63,6 @@ html, body {
       font-weight: 400;
 
       overflow: hidden;
-      background: #262626;
+      background: #000000;
       color: #FFFFFF;
 }
