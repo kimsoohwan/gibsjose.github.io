@@ -248,8 +248,13 @@ particleCollision();
 
 // Magic method for animation!
 setInterval(function() {
-    if((collided == true) && (timeout == false)) {
-        createParticle();
+    if(collided == true) {
+
+		if(timeout == false) {
+			createParticle();
+		}
+		
         repaint();
     }
+
 }, 2000/60);    //Was set to 1000: Increasing causes slower particle generation, decreasing causes faster generation
