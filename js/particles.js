@@ -160,6 +160,7 @@ function collisionRepaint() {
         clearInterval(collisionTimer);
         //ctx.clearRect(0, 0, window_width, window_height);
         collided = true;
+		particles.splice(0, 2);
         particles.length = 0;
     }
 
@@ -256,6 +257,7 @@ jets = setInterval(function() {
 		if(particles.length > 0) {
 			repaint();
 		} else {
+			console.log("All done...");
 			ctx.fillStyle = 'rgba(0, 0, 0, 0)';
 			ctx.fillRect(0, 0, window_width, window_height);
 			ctx.clearRect(0, 0, window_width, window_height);
