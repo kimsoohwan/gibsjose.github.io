@@ -256,8 +256,13 @@ particleCollision();
 
 // Magic method for animation!
 jets = setInterval(function() {
+
+	console.log("collided = " + collided);
+	console.log("timeout = " + timeout);
+
     if(collided == true) {
 		if(timeout == false) {
+			console.log("creating particle");
 			createParticle();
 		}
 
@@ -270,7 +275,7 @@ jets = setInterval(function() {
 			ctx.fillRect(0, 0, window_width, window_height);
 			collided = false;
 			timeout = false;
-			clearInterval(jets);
+			//clearInterval(jets);
 		}
     }
 
