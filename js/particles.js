@@ -161,7 +161,7 @@ function collisionRepaint() {
         //ctx.clearRect(0, 0, window_width, window_height);
         collided = true;
 		particles.splice(0, 2);
-        particles.length = 0;
+        console.log("Now particles.length = " + particles.length);
     }
 
     leftParticle.trackPosition();
