@@ -117,6 +117,14 @@ function createParticle() {
 	particle.x_speed = $$.randomInt(-3, 3);
 	particle.y_speed = $$.randomInt(-3, 3);
 
+	if(particle.x_speed == 0) {
+		particle.x_speed = 1;
+	}
+
+	if(particle.y_speed == 0) {
+		particle.y_speed = 1;
+	}
+
 	// Set the new particle's background color
 	// HSLA FTW!
 	// In the previous experiment, we were setting
@@ -161,7 +169,7 @@ function collisionRepaint() {
         //ctx.clearRect(0, 0, window_width, window_height);
         collided = true;
 		particles.splice(0, 2);
-        console.log("Now particles.length = " + particles.length);
+        particles.length = 0;
     }
 
     leftParticle.trackPosition();
