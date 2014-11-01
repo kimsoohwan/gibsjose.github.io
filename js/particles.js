@@ -257,21 +257,21 @@ particleCollision();
 // Magic method for animation!
 jets = setInterval(function() {
 
-	console.log("collided = " + collided);
-	console.log("timeout = " + timeout);
+	//console.log("collided = " + collided);
+	//console.log("timeout = " + timeout);
 
     if(collided == true) {
 		if(timeout == false) {
-			console.log("creating particle");
+			//console.log("creating particle");
 			createParticle();
 		}
 
 		if(particles.length > 0) {
-			console.log("# particles = " + particles.length);
+			//console.log("# particles = " + particles.length);
 			repaint();
 		} else {
 			console.log("All done...");
-			ctx.fillStyle = 'rgba(0, 0, 0, 0)';
+			ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
 			ctx.fillRect(0, 0, window_width, window_height);
 			ctx.clearRect(0, 0, window_width, window_height);
 			collided = false;
