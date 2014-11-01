@@ -157,7 +157,7 @@ function collisionRepaint() {
     rightParticle.x = rightParticle.x + (rightParticle.x_speed *2);
 
     if(leftParticle.x >= rightParticle.x) {
-        clearInterval(timer);
+        clearInterval(collisionTimer);
         //ctx.clearRect(0, 0, window_width, window_height);
         collided = true;
         particles.length = 0;
@@ -218,13 +218,29 @@ function repaint() {
 	}
 }
 
+var time = 0;
+masterTimer = setInterval(function() {
+
+	timeout = false;
+
+	if(collided) {
+		time = time + 1;
+	}
+
+	if(time > 20) {
+		timeout = true;
+		clearInterval(masterTimer);
+	}
+
+}, 1000);
+
 function particleCollision() {
 
     collided = false;
 
     createCollisionParticles();
 
-    timer = setInterval(collisionRepaint, 2000/60);
+    collisionTimer = setInterval(collisionRepaint, 2000/60);
 }
 
 //Collide two particles
@@ -232,7 +248,7 @@ particleCollision();
 
 // Magic method for animation!
 setInterval(function() {
-    if(collided == true) {
+    if((collided == true) && (timeout == false)) {
         createParticle();
         repaint();
     }
