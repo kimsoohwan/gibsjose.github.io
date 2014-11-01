@@ -249,12 +249,17 @@ particleCollision();
 // Magic method for animation!
 setInterval(function() {
     if(collided == true) {
-
 		if(timeout == false) {
 			createParticle();
 		}
-		
-        repaint();
+
+		if(particles.length > 0) {
+			repaint();
+		} else {
+			//ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
+			//ctx.fillRect(0, 0, window_width, window_height);
+			ctx.clearRect(0, 0, window_width, window_height);
+		}
     }
 
 }, 2000/60);    //Was set to 1000: Increasing causes slower particle generation, decreasing causes faster generation
