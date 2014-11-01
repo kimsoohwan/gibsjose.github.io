@@ -255,6 +255,7 @@ jets = setInterval(function() {
 		}
 
 		if(particles.length > 0) {
+			console.log("# particles = " + particles.length);
 			repaint();
 		} else {
 			console.log("All done...");
