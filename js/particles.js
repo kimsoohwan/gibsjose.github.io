@@ -271,6 +271,8 @@ jets = setInterval(function() {
 			ctx.fillRect(0, 0, window_width, window_height);
 			ctx.clearRect(0, 0, window_width, window_height);
 			clearInterval(jets);
+			collided = false;
+			timeout = false;
 		}
     }
 
