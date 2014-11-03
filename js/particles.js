@@ -1,7 +1,7 @@
 // Get the canvas DOM element along with it's 2D context
 // which is basically what we do our work on
 
-var canvas = document.getElementById('canvas'),
+var canvas = document.getElementById('particle-canvas'),
 		ctx = canvas.getContext('2d'),
 		window_width = canvas.width,//window.innerWidth,
 		window_height = canvas.height;//window.innerHeight;
