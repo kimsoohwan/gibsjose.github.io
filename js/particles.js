@@ -235,7 +235,7 @@ masterTimer = setInterval(function() {
 		time = time + 1;
 	}
 
-	if(time > 5) {
+	if(time > 2) {
 		timeout = true;
 		clearInterval(masterTimer);
 	}
