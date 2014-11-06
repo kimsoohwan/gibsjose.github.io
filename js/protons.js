@@ -47,7 +47,7 @@ var QuarkColor = {
 }
 
 function MoveQuark() {
-    var vibrate = true;
+    var vibrate = false;
     var debug = false;
 
     if(debug) console.log('Move');
@@ -207,17 +207,17 @@ function Proton(side) {
         this.x_speed = -1;
         this.y_speed = 0;
 
-        //Red Quark X/Y
-        var rqx = this.x + i_radius;
-        var rqy = this.y;
-
         //Green Quark X/Y
-        var gqx = this.x - (i_radius / 2);
-        var gqy = this.y + ((Math.sqrt(3) / 2) * i_radius);
+        var gqx = this.x + i_radius;
+        var gqy = this.y;
 
         //Blue Quark X/Y
-        var bqx = gqx;
-        var bqy = this.y - ((Math.sqrt(3) / 2) * i_radius);
+        var bqx = this.x - (i_radius / 2);
+        var bqy = this.y + ((Math.sqrt(3) / 2) * i_radius);
+
+        //Red Quark X/Y
+        var rqx = bqx;
+        var rqy = this.y - ((Math.sqrt(3) / 2) * i_radius);
     }
 
     if(debug) {

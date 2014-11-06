@@ -7,6 +7,22 @@ canvas {
    display: inline;
 }
 
+#form-container {
+    width: 100%;
+    text-align:center;
+}
+
+select {
+    width: 250px;
+    /*left: 50%;*/
+    margin: 0 auto;
+}
+
+label {
+    font-weight: 400;
+    color: #39B54A;
+}
+
 .content-wrapper {
     /* These styles are required for the "scroll-over" effect */
     position: absolute;
