@@ -1,161 +1,848 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Personal Website of Joe Gibson">
+		<meta name="author" content="http://gibsjose.com">
+		<title>Joe Gibson</title>
 
-<!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="A layout example that shows off a responsive product landing page.">
+		<!-- Stylesheets -->
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+		<link href="assets/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+		<link href="assets/css/bootstrapValidator.min.css" rel="stylesheet">
+		<link href="assets/css/ladda-themeless.min.css" rel="stylesheet">
+		<link href="assets/css/jquery.bxslider.css" rel="stylesheet">
+		<link href="assets/css/animate.css" rel="stylesheet">
+		<link href="assets/css/app.css" rel="stylesheet">
 
-        <title>Spectrum</title>
-        <link rel="shortcut icon" href="img/spectrum_64.ico">
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="assets/img/favicon/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="assets/img/favicon/favicon.ico" type="image/x-icon">
 
-        <!-- Lato Font -->
-        <link href='http://fonts.googleapis.com/css?family=Lato:100,300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<!-- Respond.js IE8 support of media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="assets/js/respond.min.js"></script>
+		<![endif]-->
 
-        <!-- Pure -->
-        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+		<script src="assets/js/pace.min.js"></script>
+		<script src="assets/js/modernizr.min.js"></script>
+	</head>
+	<body data-spy="scroll" data-target="#nav" data-offset="80">
+		<!-- Menu -->
+		<nav class="navbar navbar-default" role="navigation" id="nav">
+		  <div class="container">
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<i class="fa fa-reorder"></i>
+			  </button>
+			  <a class="navbar-brand" href="#">
+				<img src="assets/img/logo/logo.png" alt="Logo">
+			  </a>
+			</div>
 
-        <!--[if lte IE 8]>
-            <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css">
-        <![endif]-->
-        <!--[if gt IE 8]><!-->
-            <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
-        <!--<![endif]-->
+			<div class="collapse navbar-collapse navbar-right" id="navbar">
+			  <ul class="nav navbar-nav">
+				<li><a href="#home">Home <span class="sr-only">home</span></a></li>
+				<li><a href="#about">About</a></li>
+				<!-- <li><a href="#services">Services</a></li> -->
+				<li><a href="#resume">Resume</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<!-- <li><a href="#portfolio">Portfolio</a></li> -->
+				<li><a href="#contact">Contact</a></li>
+			  </ul>
+			</div>
+		  </div>
+		</nav>
 
-        <!-- Local Stylesheet -->
-        <link rel="stylesheet" href="css/style.css">
+		<!-- Main -->
+		<section class="main" id="home">
+			<div class="page">
+				<div class="wrapper">
+					<div class="container">
+						<h1 class="heading">Joe Gibson</h1>
+						<p>
+							<h3>
+							<span class="rotate">Engineer, Scientist, Outdoorsman, Programmer, Brewer, Musician, Traveller</h2></span>
+							</h3>
+						</p>
+					</div>
+					<div class="arrow-down">
+						<a class="scroll" href="#about" id="scroll"><i class="fa fa-angle-double-down"></i></a>
+					</div>
+				</div>
+			</div>
+		</section>
 
-        <!-- Font Awesome -->
-        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+		<!-- About -->
+		<section id="about" class="section section-solid">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<h3 class="section-title">About</h3>
+						<div class="section-title-border"></div>
+					</div>
+				</div>
 
-    </head>
+				<div class="row mt20">
+					<div class="col-sm-4 wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0s">
+						<img src="assets/img/about/1.jpg" class="img-responsive about-img" />
+					</div>
+					<div class="col-sm-8 wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0s">
+						<p class="lead">
+							A Concise Autobiography...
+						</p>
+						<p>
+							I am a computer engineer, outdoorsman, programmer, hockey player, scientist, brewer, classical guitar player, former NASA and CERN researcher, language learner, space nut, and traveller.
+						</p>
+						<p>
+							I currently live in the great state of Michigan and have previously lived in Washington D.C. and Geneva, Switzerland. I love culture, travel, and learning new languages; I'm fluent in my native English and Spanish, intermediate in French, and a beginner in Russian.
+						</p>
+						<p>
+							My fiancée Cruz and I are avid hikers, rock climbers, campers ... well, we pretty much love anything outdoors. From sleeping on the beach in Northern Michigan to mountain climbing in Switzerland, it's where we feel at home.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
 
-    <body>
-        <div class="header">
-            <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
-                <li>
-                    <a href="index.html">
-                        <img src="img/spectrum_64.png">
-                    </a>
-                </li>
-                <ul>
-                    <li class="pure-menu-selected"><a href="index.html">Home</a></li>
-                    <li><a href="plot.html">Plot</a></li>
-                    <li><a href="downloads.html">Downloads</a></li>
-                    <li><a href="grids.html">Grids</a></li>
-                    <li><a href="pdf-sets.html">PDF Sets</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="splash-container">
-            <div class="splash">
-                <!-- <h1 class="splash-head">Spectrum</h1> -->
-                <img class="pure-img-responsive" alt="Spectrum" width="1000" src="img/spectrum_banner_1000.png">
-                <p class="splash-subhead">
-                    Proton-Proton Cross-Section Analysis Software
-                    <br />
-                    Access to multiple PDF and Grid combinations
-                    <br />
-                    Datasets from ATLAS, CMS, HERA, and more
-                    <br />
-                </p>
-                <p>
-                    <a href="plot.html" class="pure-button pure-button-primary">Make a Plot</a>
-                </p>
-            </div>
-        </div>
-        <div class="content-wrapper">
-            <div class="content">
-                <h2 class="content-head is-center">Quantum Chromodynamics Made Easy</h2>
-                <div class="pure-g">
-                    <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-5">
-                        <h3 class="content-subhead">
-                            <i class="fa fa-rocket"></i>
-                            Start Quickly
-                        </h3>
-                        <p>
-                            A number of pre-configured plots are available for quick access to the most commonly used plots.
-                        </p>
-                    </div>
-                    <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-5">
-                        <h3 class="content-subhead">
-                            <i class="fa fa-gears"></i>
-                            Configure With Ease
-                        </h3>
-                        <p>
-                            Configuring a Spectrum plot is simple due to the dynamic user interface and configuration help dialogues.
-                        </p>
-                    </div>
-                    <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-5">
-                        <h3 class="content-subhead">
-                            <i class="fa fa-th"></i>
-                            Choose Your Grids
-                        </h3>
-                        <p>
-                            Select from a large collection of supported Grids and PDFs to perform your convolution.
-                        </p>
-                    </div>
-                    <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-5">
-                        <h3 class="content-subhead">
-                            <i class="fa fa-bar-chart-o"></i>
-                            Grab Your Plot
-                        </h3>
-                        <p>
-                            Download your plot in multiple formats including PNG, JPEG, TIFF, GIF, and PDF.
-                        </p>
-                    </div>
-                    <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-5">
-                        <h3 class="content-subhead">
-                            <i class="fa fa-terminal"></i>
-                            Expert Mode
-                        </h3>
-                        <p>
-                            Use the web interface or download the Spectrum source and configure in detail with easy to use Steering Files.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="ribbon l-box-lrg pure-g">
-                <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
-                    <img class="pure-img-responsive" alt="File Icons" width="320" src="img/files_320.png">
-                </div>
-                <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
-                    <h2 class="content-head content-head-ribbon">Configuration Made Simple</h2>
-                    <p>
-                        Configuring Spectrum plots couldn't be simpler. Select your plot type, data set, grids, PDFs, and
-                        then configure the styles for each graph like the marker style, color, fill style, etc. with the interactive
-                        configuration menus. Hover over the <i class="fa fa-question-circle"></i> icon for helpful hints.
-                    </p>
-                </div>
-            </div>
-            <div class="content">
-                <h2 class="content-head is-center">Drop Us a Line</h2>
-                <div class="pure-g">
-                    <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
-                        <h4>Spectrum Links</h4>
-                        <h2><a href="https://www.github.com/gibsjose/Spectrum/"><i class="fa fa-github"></i></a>  Spectrum Repository</h2>
-                        <h2><a href="http://applgrid.hepforge.org/"><i class="fa fa-adn"></i></a>  APPLgrid</h2>
-                        <h2><a href="https://www.hepforge.org/"><i class="fa fa-check-circle"></i></a>  Hepforge</h2>
-                    </div>
-                    <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
-                        <h4>Contribute</h4>
-                        <p>
-                            If you would like to contribute to Spectrum by working on new features, submitting new Grids/PDF sets,
-                            testing new configurations, etc., please contact
-                            <a href="mailto:tancredi.carli@cern.ch">Dr. Tancredi Carli</a>, ATLAS Experiment, CERN.
-                        </p>
-                        <h4>Contact</h4>
-                        <p>
-                            For more information regarding Spectrum, please contact Dr. Carli. We will be happy to hear from you regarding
-                            any features, bug-fixes, or questions you may have.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="footer l-box is-center">
-                Check out the <a href="http://www.github.com/gibsjose/Spectrum/">Spectrum Project</a> on GitHub –
-                Designed by <a href="http://www.github.com/gibsjose">Joe Gibson</a> – CERN 2014.
-            </div>
-        </div>
-    </body>
+		<!-- Services -->
+		<!-- <section class="section section-solid-white" id="hobbies">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<h3 class="section-title">Hobbies</h3>
+						<div class="section-title-border"></div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6 wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0s">
+						<div class="feature-box-container">
+							<div class="feature-box">
+								<div class="icon">
+									<i class="fa fa-life-ring"></i>
+								</div>
+								<div class="description">
+									<h4>Quisque ullamcorper</h4>
+									<p>Nam pharetra, nunc eget faucibus
+										vulputate, libero eros commodo
+										nibh, non laoreet arcu est non dolor.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="feature-box-container">
+							<div class="feature-box">
+								<div class="icon">
+									<i class="fa fa-gift"></i>
+								</div>
+								<div class="description">
+									<h4>Sed non quam iaculis</h4>
+									<p>Vestibulum nec eros vestibulum,
+										vehicula metus eu, mattis libero.
+										Ut ac libero elementum, rutrum diam bibendum,
+										consectetur metus.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="feature-box-container">
+							<div class="feature-box">
+								<div class="icon">
+									<i class="fa fa-paint-brush"></i>
+								</div>
+								<div class="description">
+									<h4>Donec rutrum vitae</h4>
+									<p>Vestibulum nec eros vestibulum,
+										vehicula metus eu, mattis libero.
+										Ut ac libero elementum, rutrum diam bibendum,
+										consectetur metus.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0s">
+						<div class="feature-box-container">
+							<div class="feature-box">
+								<div class="icon">
+									<i class="fa fa-cogs"></i>
+								</div>
+								<div class="description">
+									<h4>Phasellus lobortis</h4>
+									<p>Fusce eu tellus vel tellus porttitor aliquet.
+										Etiam ullamcorper laoreet lectus ut suscipit.
+										Felis sed ante.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="feature-box-container">
+							<div class="feature-box">
+								<div class="icon">
+									<i class="fa fa-rocket"></i>
+								</div>
+								<div class="description">
+									<h4>Donec rutrum vitae</h4>
+									<p>Quisque luctus felis sed ante elementum condimentum.
+										Praesent sagittis odio eu ante sollicitudin
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="feature-box-container">
+							<div class="feature-box">
+								<div class="icon">
+									<i class="fa fa-heart"></i>
+								</div>
+								<div class="description">
+									<h4>Nunc consectetur</h4>
+									<p>Sed ipsum nulla, eleifend ac consectetur ut, vehicula sed lacus.
+										Quisque lectus sem, vestibulum vel nibh.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> -->
+
+		<!-- Twitter -->
+		<section class="section" id="tweets">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 text-center wow fadeInDown" data-wow-duration="0.7s" data-wow-delay="0s">
+						<i class="fa fa-twitter twitter-feed-icon"></i>
+						<span id="twitterFeed"></span>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Resume -->
+		<section id="resume" class="section section-solid">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<h3 class="section-title">Resume</h3>
+						<div class="section-title-border"></div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<ul class="v-timeline mt50">
+							<li>
+								<h3 class="v-heading wow fadeInDown" data-wow-duration="0.7s" data-wow-delay="0s"><i class="fa fa-briefcase"></i> Work experience</h3>
+							</li>
+							<li>
+								<time class="v-time wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0s" datetime="2013-04-15 13:15"><span>2015 - Present</span></time>
+								<div class="v-icon" data-toggle="collapse" data-target="#toggle-0"><i class="fa fa-plus"></i></div>
+								<div class="v-label wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0s" >
+									<h4><a href="#" data-toggle="collapse" data-target="#toggle-0">
+										RFCx
+									</a></h4>
+									<div id="toggle-0" class="collapse">
+										<h4>Rainforest Connection - San Francisco, CA</h4>
+										<h5><i>GVSU Senior Project Team Leader</i></h5>
+										<h5><i>Project Necromancer</i></h5>
+
+										<p>
+											RFCx is combatting illegal deforestation by using repurposed Android phones to listen for the sounds of chainsaws, engines, and other sounds in the rainforest. Data is collected and transmitted in real time to a server which performs analysis of the audio using DSP algorithms to determine the presence of loggers
+										</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<time class="v-time wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0.1s" datetime="2013-04-15 13:15"><span>2014 - 2015</span></time>
+								<div class="v-icon" data-toggle="collapse" data-target="#toggle-1"><i class="fa fa-plus"></i></div>
+								<div class="v-label wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.1s" >
+									<h4><a href="#" data-toggle="collapse" data-target="#toggle-1">
+										CERN
+									</a></h4>
+									<div id="toggle-1" class="collapse">
+										<h4>European Center for Nuclear Research - Geneva, Switzerland</h4>
+										<h5><i>Research Assistant, ATLAS Experiment – Large Hadron Collider</i></h5>
+
+										<ul>
+											<i class="fa fa-caret-right"></i> Research in QCD (Quantum Chromodynamics) and proton-proton collisions
+										</ul>
+
+										<ul>
+											<i class="fa fa-caret-right"></i> Wrote software in C++ and Python on SLC6 (Scientific Linux CERN 6)
+										</ul>
+
+										<ul>
+											<i class="fa fa-caret-right"></i> Co-developed the C++ program Spectrum to plot experimental data, theory predictions, and PDF (Parton Density Function) convolutions
+										</ul>
+
+										<ul>
+											<i class="fa fa-caret-right"></i> Created the Spectrum website: <a href="https://spectrum.web.cern.ch">https://spectrum.web.cern.ch</a>
+										</ul>
+
+										<ul>
+											<i class="fa fa-caret-right"></i> Created file format for Spectrum to parse data, grid and PDF configurations
+										</ul>
+
+										<ul>
+											<i class="fa fa-caret-right"></i> Interfaced with ROOT, APPLgrid, LHAPDF, and FastJet QCD libraries
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li>
+								<time class="v-time wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0.2s" datetime="2013-04-16 21:30"><span>2014</span></time>
+								<div class="v-icon" data-toggle="collapse" data-target="#toggle-2"><i class="fa fa-plus"></i></div>
+								<div class="v-label wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.2s">
+									<h4><a href="#" data-toggle="collapse" data-target="#toggle-2">
+										NASA
+									</a></h4>
+									<div id="toggle-2" class="collapse">
+										<h4>Goddard Space Flight Center - Washington, D.C.</h4>
+										<h5><i>Computer Engineering Co-op, BETTII Project</i></h5>
+										<h5><i>Code 665: Astrophysics, Observational Cosmology Laboratory</i></h5>
+
+										<ul>
+											<i class="fa fa-caret-right"></i> Balloon Experimental Twin Telescope for Infrared Interferometry (BETTII) Project: <a href="">http://asd.gsfc.nasa.gov/bettii/</a>
+										</ul>
+
+										<ul>
+											<i class="fa fa-caret-right"></i> High-altitude far-infrared balloon observatory for star formation and active galactic nuclei
+										</ul>
+
+										<ul>
+											<i class="fa fa-caret-right"></i> Interfaced with stellar image processing software in C and C++ in a Unix environment
+										</ul>
+
+										<ul>
+											<i class="fa fa-caret-right"></i> Developed StarTracker software for Star Cameras - captures stellar images and determines BETTII's position in space
+										</ul>
+
+										<ul>
+											<i class="fa fa-caret-right"></i> Implemented an RS-422 communication network with a shared circular buffer in C
+										</ul>
+
+										<ul>
+											<i class="fa fa-caret-right"></i> Created an FPGA RS-422 receiver using LabVIEW
+										</ul>
+
+										<ul>
+											<i class="fa fa-caret-right"></i> Created, installed, and managed libraries, makefiles, and projects in Linux
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li>
+								<time class="v-time wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0.3s" datetime="2013-04-17"><span>2013</span></time>
+								<div class="v-icon" data-toggle="collapse" data-target="#toggle-3"><i class="fa fa-plus"></i></div>
+								<div class="v-label wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.3s">
+									<h4><a href="#" data-toggle="collapse" data-target="#toggle-3">
+										L-3 Communications, Avionics Systems
+									</a></h4>
+									<div id="toggle-3" class="collapse">
+										<h4>Grand Rapids, MI</h4>
+										<h5><i>Computer Engineering Co-op, Test Software</i></h5>
+
+										<ul>
+											<i class="fa fa-caret-right"></i> Designed software to configure, test, and qualify avionics instruments
+										</ul>
+
+										<ul>
+											<i class="fa fa-caret-right"></i> Developed GUIs for Windows in C using LabWindows/CVI
+										</ul>
+
+										<ul>
+											<i class="fa fa-caret-right"></i> Architected software; designed model diagrams using UML
+										</ul>
+
+										<ul>
+											<i class="fa fa-caret-right"></i> Interfaced with a number of avionics instruments including standby indicators, magnetometers, etc.
+										</ul>
+
+										<ul>
+											<i class="fa fa-caret-right"></i> Tested units under environmental conditions (temperature, pressure, magnetic field interruption, etc.) and analyzed test data
+										</ul>
+
+										<ul>
+											<i class="fa fa-caret-right"></i> Used the ARNIC 429 protocol to communicate with air data computers, avionics instruments, and standby indicators
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li>
+								<time class="v-time wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0.4s" datetime="2013-04-17"><span>2011-2013</span></time>
+								<div class="v-icon" data-toggle="collapse" data-target="#toggle-4"><i class="fa fa-plus"></i></div>
+								<div class="v-label wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.4s">
+									<h4><a href="#" data-toggle="collapse" data-target="#toggle-4">
+										Custom Electronics, Inc.
+									</a></h4>
+									<div id="toggle-4" class="collapse">
+										<h4>Grand Rapids, MI</h4>
+										<h5><i>Computer Engineering Co-op, Test Software</i></h5>
+
+										<ul>
+											<i class="fa fa-caret-right"></i> Programmed 8-bit Microchip microcontrollers in C using MPLAB X
+										</ul>
+
+										<ul>
+											<i class="fa fa-caret-right"></i> Wrote code in CRBasic for freshwater scientific instrumentation buoys
+										</ul>
+
+										<ul>
+											<i class="fa fa-caret-right"></i> Interfaced with a variety of scientific instruments including digital cameras, weather transmitters, and solar radiometers using RS-232, SDI-12 and RS-485 serial communication
+										</ul>
+
+										<ul>
+											<i class="fa fa-caret-right"></i> Designed a series of eight electric guitar effect pedals
+										</ul>
+
+										<ul>
+											<i class="fa fa-caret-right"></i> Schematics and productions PCBs designed in Altium Designer (through-hole and surface-mount)
+										</ul>
+									</div>
+								</div>
+							</li>
+						</ul>
+						<ul class="v-timeline mt50">
+							<li>
+								<h3 class="v-heading wow fadeInDown" data-wow-duration="0.7s" data-wow-delay="0s"><i class="fa fa-graduation-cap"></i> Education</h3>
+							</li>
+							<li>
+								<time class="v-time wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0.5s" datetime="2013-04-18"><span>2010 - 2015</span></time>
+								<div class="v-icon" data-toggle="collapse" data-target="#toggle-5"><i class="fa fa-plus"></i></div>
+								<div class="v-label wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.5s">
+									<h4><a href="#" data-toggle="collapse" data-target="#toggle-5">
+										Bachelor of Science in Engineering - Computer Engineering
+									</a></h4>
+									<div id="toggle-5" class="collapse">
+										<h4>Grand Valley State University - Allendale, MI</h4>
+
+										<p><h5><b>GPA: 3.951</b></h5></p>
+
+										<p><h5><b>Awards</b></h5></p>
+										<ul>
+											<i class="fa fa-caret-right"></i> ASEE CEED Co-op Student of the Year: 2014
+										</ul>
+										<ul>
+											<i class="fa fa-caret-right"></i> Academic Excellence Award in Computer Engineering
+										</ul>
+										<ul>
+											<i class="fa fa-caret-right"></i> Dean's List
+										</ul>
+										<ul>
+											<i class="fa fa-caret-right"></i> FIRST Robotics Engineering Scholarship ($20000)
+										</ul>
+										<ul>
+											<i class="fa fa-caret-right"></i> Award for Excellence Scholarship
+										</ul>
+										<ul>
+											<i class="fa fa-caret-right"></i> Faculty Award of Distinction Scholarship
+										</ul>
+
+										<p><h5><b>Extracurricular Activities</b></h5></p>
+										<ul>
+											<i class="fa fa-caret-right"></i> Tau Beta Pi Engineering Honor Society: 2013 - Present
+										</ul>
+										<ul>
+											<i class="fa fa-caret-right"></i> President of Spanish Club 'La Tertulia': 2011 - 2014
+										</ul>
+										<ul>
+											<i class="fa fa-caret-right"></i> President and Co-Founder of Brewing Science and Technology Club: 2013 - Present
+										</ul>
+										<ul>
+											<i class="fa fa-caret-right"></i> Vice President of Hardware, Computer Science Club: 2012 - Present
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li>
+								<time class="v-time wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0.6s" datetime="2013-04-18"><span>2010 - 2015</span></time>
+								<div class="v-icon" data-toggle="collapse" data-target="#toggle-6"><i class="fa fa-plus"></i></div>
+								<div class="v-label wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.6s">
+									<h4><a href="#" data-toggle="collapse" data-target="#toggle-6">
+										Relevant Courses
+									</a></h4>
+									<div id="toggle-6" class="collapse">
+										<ul>
+											<i class="fa fa-caret-right"></i> CIS 452: Operating Systems
+										</ul>
+										<ul>
+											<i class="fa fa-caret-right"></i> CIS 457: Data Communications
+										</ul>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Skills -->
+		<section class="section" id="skills">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<h3 class="section-title">Skills</h3>
+						<div class="section-title-border"></div>
+					</div>
+				</div>
+				<div class="row personal-skills">
+					<div class="col-sm-8 wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0s">
+						<h4>Technical Skills</h4>
+						<h5>C (Desktop and Embedded)</h5>
+						<div class="progress">
+							<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+								90%
+							</div>
+						</div>
+						<h5>C++</h5>
+						<div class="progress">
+							<div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+								75%
+							</div>
+						</div>
+						<h5>Java</h5>
+						<div class="progress">
+							<div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+								50%
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0s">
+						<h4>Knowledge</h4>
+						<ul class="fa-ul skills-ul">
+						  <li><i class="fa-li fa fa-check"></i>HTML, CSS, PHP</li>
+						  <li><i class="fa-li fa fa-check"></i>JavaScript, jQuery</li>
+						  <li><i class="fa-li fa fa-check"></i>Python</li>
+						  <li><i class="fa-li fa fa-check"></i>Perl, Bash, Awk, Sed</li>
+						  <li><i class="fa-li fa fa-check"></i>Git Version Control</li>
+						</ul>
+					</div>
+				</div>
+				<div class="row personal-skills">
+					<div class="col-sm-8 wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0.1s">
+						<h4>Languages</h4>
+						<div class="lang-container">
+							<input type="text" value="100" class="dial"
+								data-width="100"
+								data-height="100"
+								data-fgColor="#869198"
+								data-skin="tron"
+								data-thickness=".2"
+								data-displayPrevious=true
+								data-readOnly=true>
+							<p class="lang-description">English</p>
+							<span class="lang-level">native</span>
+						</div>
+
+						<div class="lang-container">
+							<input type="text" value="100" class="dial"
+								data-width="100"
+								data-height="100"
+								data-fgColor="#869198"
+								data-skin="tron"
+								data-thickness=".2"
+								data-displayPrevious=true
+								data-readOnly=true>
+							<p class="lang-description">Spanish</p>
+							<span class="lang-level">fluent</span>
+						</div>
+
+						<div class="lang-container">
+							<input type="text" value="40" class="dial"
+								data-width="100"
+								data-height="100"
+								data-fgColor="#869198"
+								data-skin="tron"
+								data-thickness=".2"
+								data-displayPrevious=true
+								data-readOnly=true
+								data-bgColor="#fff">
+							<p class="lang-description">French</p>
+							<span class="lang-level">intermediate</span>
+						</div>
+
+						<div class="lang-container">
+							<input type="text" value="15" class="dial"
+								data-width="100"
+								data-height="100"
+								data-fgColor="#869198"
+								data-skin="tron"
+								data-thickness=".2"
+								data-displayPrevious=true
+								data-readOnly=true
+								data-bgColor="#fff">
+							<p class="lang-description">Russian</p>
+							<span class="lang-level">basic</span>
+						</div>
+					</div>
+					<div class="col-sm-4 wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.1s">
+						<h4>Hobbies</h4>
+						<ul class="fa-ul skills-ul">
+							<li><i class="fa-li fa fa-plane"></i>Language, travel, culture</li>
+							<li><i class="fa-li fa fa-music"></i>Classical, Spanish flamenco, and jazz guitar</li>
+							<li><i class="fa-li fa fa-tree"></i>Mountain climbing, hiking, and backpacking</li>
+							<li><i class="fa-li fa fa-flask"></i>Brewing chemistry and technology</li>
+							<li><i class="fa-li fa fa-beer"></i>Member of NASA Zymernauts Brewing Club</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Portfolio -->
+		<!-- <section id="portfolio" class="section section-solid">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<h3 class="section-title">Portfolio</h3>
+						<div class="section-title-border"></div>
+					</div>
+				</div>
+				<div class="row wow fadeInDown" data-wow-duration="0.7s" data-wow-delay="0s">
+					<div class="col-sm-12 text-center">
+						<ul id="filter" class="list-inline filter-tags">
+							<li><a href="#" class="btn btn-sm btn-theme-inverse active" data-group="all">All</a></li>
+							<li><a href="#" class="btn btn-sm btn-theme-inverse" data-group="branding">Branding</a></li>
+							<li><a href="#" class="btn btn-sm btn-theme-inverse" data-group="web">Web</a></li>
+							<li><a href="#" class="btn btn-sm btn-theme-inverse" data-group="app">App</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="GITheWall">
+				<ul id="portfolio-container" class="text-center wow fadeInDown" data-wow-duration="0.7s" data-wow-delay="0s">
+					<li class="portfolio-item" data-groups='["all", "branding"]' data-contenttype="ajax" data-href="assets/ajax/1.html">
+						<figure>
+							<div class="portfolio-img">
+								<a href="#" class="overlay">
+									<span class="title">Mollis magna</span>
+									<span class="category">branding</span>
+								</a>
+								<img src="assets/img/portfolio/1.jpg" alt="" class="img-responsive">
+							</div>
+						</figure>
+					</li>
+					<li class="portfolio-item" data-groups='["all", "web"]' data-contenttype="ajax" data-href="assets/ajax/2.html">
+						<figure>
+							<div class="portfolio-img">
+								<a href="#" class="overlay">
+									<span class="title">Suspendisse potenti</span>
+									<span class="category">web</span>
+								</a>
+								<img src="assets/img/portfolio/2.jpg" alt="" class="img-responsive">
+							</div>
+						</figure>
+					</li>
+					<li class="portfolio-item" data-groups='["all", "app"]' data-contenttype="ajax" data-href="assets/ajax/1.html">
+						<figure>
+							<div class="portfolio-img">
+								<a href="#" class="overlay">
+									<span class="title">Sed hendrerit</span>
+									<span class="category">app</span>
+								</a>
+								<img src="assets/img/portfolio/3.jpg" alt="" class="img-responsive">
+							</div>
+						</figure>
+					</li>
+					<li class="portfolio-item" data-groups='["all", "branding"]' data-contenttype="ajax" data-href="assets/ajax/2.html">
+						<figure>
+							<div class="portfolio-img">
+								<a href="#" class="overlay">
+									<span class="title">Etiam commodo lacus</span>
+									<span class="category">branding</span>
+								</a>
+								<img src="assets/img/portfolio/4.jpg" alt="" class="img-responsive">
+							</div>
+						</figure>
+					</li>
+					<li class="portfolio-item" data-groups='["all", "web"]' data-contenttype="ajax" data-href="assets/ajax/1.html">
+						<figure>
+							<div class="portfolio-img">
+								<a href="#" class="overlay">
+									<span class="title">Ac tristique</span>
+									<span class="category">web</span>
+								</a>
+								<img src="assets/img/portfolio/5.jpg" alt="" class="img-responsive">
+							</div>
+						</figure>
+					</li>
+					<li class="portfolio-item" data-groups='["all", "app"]' data-contenttype="ajax" data-href="assets/ajax/2.html">
+						<figure>
+							<div class="portfolio-img">
+								<a href="#" class="overlay">
+									<span class="title">Ipsum tempor quis</span>
+									<span class="category">app</span>
+								</a>
+								<img src="assets/img/portfolio/6.jpg" alt="" class="img-responsive">
+							</div>
+						</figure>
+					</li>
+					<li class="portfolio-item" data-groups='["all", "branding"]' data-contenttype="ajax" data-href="assets/ajax/1.html">
+						<figure>
+							<div class="portfolio-img">
+								<a href="#" class="overlay">
+									<span class="title">Donec accumsan</span>
+									<span class="category">branding</span>
+								</a>
+								<img src="assets/img/portfolio/7.jpg" alt="" class="img-responsive">
+							</div>
+						</figure>
+					</li>
+					<li class="portfolio-item" data-groups='["all", "web"]' data-contenttype="ajax" data-href="assets/ajax/2.html">
+						<figure>
+							<div class="portfolio-img">
+								<a href="#" class="overlay">
+									<span class="title">Arcu id porta</span>
+									<span class="category">web</span>
+								</a>
+								<img src="assets/img/portfolio/8.jpg" alt="" class="img-responsive">
+							</div>
+						</figure>
+					</li>
+					<li class="portfolio-item" data-groups='["all", "app"]' data-contenttype="ajax" data-href="assets/ajax/1.html">
+						<figure>
+							<div class="portfolio-img">
+								<a href="#" class="overlay">
+									<span class="title">Curabitur posuere</span>
+									<span class="category">app</span>
+								</a>
+								<img src="assets/img/portfolio/9.jpg" alt="" class="img-responsive">
+							</div>
+						</figure>
+					</li>
+					<li class="portfolio-item" data-groups='["all", "branding"]' data-contenttype="ajax" data-href="assets/ajax/2.html">
+						<figure>
+							<div class="portfolio-img">
+								<a href="#" class="overlay">
+									<span class="title">Lacus id sapien</span>
+									<span class="category">branding</span>
+								</a>
+								<img src="assets/img/portfolio/10.jpg" alt="" class="img-responsive">
+							</div>
+						</figure>
+					</li>
+				</ul>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 text-center">
+						<a href="#" class="btn btn-theme-inverse mt40 wow fadeInDown" data-wow-duration="0.7s" data-wow-delay="0.5s" id="portfolio-more">More</a>
+					</div>
+				</div>
+			</div>
+		</section> -->
+
+		<!-- Facts -->
+		<section id="facts" class="section">
+			<div class="container">
+				<div class="row text-center wow fadeInDown" data-wow-duration="0.7s" data-wow-delay="0s">
+					<div class="col-sm-3">
+						<h1 class="counter">3</h1>
+						<p>years experience</p>
+					</div>
+					<div class="col-sm-3">
+						<h1 class="counter">100000</h1>
+						<p>lines of code written</p>
+					</div>
+					<div class="col-sm-3">
+						<h1 class="counter">0</h1>
+						<p>bugs (yeah right...)</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact -->
+		<section id="contact" class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<h3 class="section-title">Contact</h3>
+						<div class="section-title-border"></div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6 wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0s">
+						<p>
+							<strong>I would love</strong> to hear from you, if you are not a robot.
+						</p>
+						<ul class="list-contacts">
+							<!-- <li><i class="fa fa-phone"></i> (616) 293-0250</li> -->
+							<li><i class="fa fa-map-marker"></i> My Domicile<br> Grand Rapids, MI</li>
+							<li><i class="fa fa-envelope-o"></i> <a href="mailto:gibsjose@mail.gvsu.edu">gibsjose@mail.gvsu.edu</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-6 wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0s">
+						<form class="form-horizontal" action="assets/php/contactForm.php" method="post" role="form" id="contactForm">
+							<div class="form-group">
+								<div class="col-sm-6">
+									<input type="text" name="name" class="form-control" placeholder="Name">
+								</div>
+								<div class="col-sm-6">
+									<input type="text" name="contactEmail" class="form-control" placeholder="Email">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<textarea name="message" class="form-control" rows="8" placeholder="Message"></textarea>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<button type="submit" class="btn btn-theme ladda-button" data-style="expand-left">
+									<span class="ladda-label">Submit</span>
+									</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6"><img width="32 px" src="assets/img/favicon/favicon.ico" alt="Icon">  Copyright &copy; 2015 Gibsjose. All rights reserved.</div>
+					<div class="col-sm-6 text-right">
+						<div class="social">
+							<a href="https://github.com/gibsjose" class="btn btn-theme"><i class="fa fa-github"></i></a>
+							<a href="https://twitter.com/gibsjose" class="btn btn-theme"><i class="fa fa-twitter"></i></a>
+							<a href="https://plus.google.com/u/0/+JoeGibson4f1e/posts" class="btn btn-theme"><i class="fa fa-google-plus"></i></a>
+							<a href="https://www.linkedin.com/profile/view?id=187427540" class="btn btn-theme"><i class="fa fa-linkedin"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="assets/js/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/jquery.backstretch.min.js"></script>
+		<script src="assets/js/bootstrapValidator.min.js"></script>
+		<script src="assets/js/validator/emailAddress.js"></script>
+		<script src="assets/js/spin.min.js"></script>
+		<script src="assets/js/ladda.min.js"></script>
+		<script src="assets/js/retina.min.js"></script>
+		<script src="assets/js/masonry.pkgd.min.js"></script>
+		<script src="assets/js/imagesloaded.pkgd.min.js"></script>
+		<script src="assets/js/jquery.shuffle.min.js"></script>
+		<script src="assets/js/jquery.bxslider.min.js"></script>
+		<script src="assets/js/waypoints.min.js"></script>
+		<script src="assets/js/jquery.counterup.min.js"></script>
+		<script src="assets/js/jQuery.GI.TheWall.min.js"></script>
+		<script src="assets/js/twitterFetcher.min.js"></script>
+		<script src="assets/js/jquery.simple-text-rotator.min.js"></script>
+		<script src="assets/js/jquery.throttledresize.js"></script>
+		<script src="assets/js/wow.min.js"></script>
+		<script src="assets/js/jquery.knob.min.js"></script>
+		<script src="assets/js/jquery.scrollTo.min.js"></script>
+		<script src="assets/js/app.js"></script>
+	</body>
 </html>
