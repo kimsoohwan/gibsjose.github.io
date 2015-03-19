@@ -301,13 +301,13 @@ $(function () {
 						message: 'Name cannot be empty'
 					},
 					stringLength: {
-						min: 6,
-						max: 30,
-						message: 'Name must be more than 6 and less than 30 characters long'
+						min: 1,
+						max: 32,
+						message: 'Name must be less than 32 characters long'
 					},
 					regexp: {
-						regexp: /^[a-zA-Z\s]+$/,
-						message: 'Name can only consist alphabetical characters'
+						regexp: /^[a-zA-Z\s-]+$/,
+						message: 'Name can only consist of alphabetical characters'
 					}
 				}
 			},
