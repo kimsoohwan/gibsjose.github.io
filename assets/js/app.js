@@ -22,7 +22,11 @@ $(function () {
 	$.backstretch([
 		"assets/img/background/1.jpg",
 		"assets/img/background/2.jpg",
-		"assets/img/background/3.jpg"
+		"assets/img/background/3.jpg",
+		"assets/img/background/4.jpg",
+		"assets/img/background/5.jpg",
+		"assets/img/background/6.jpg",
+		"assets/img/background/7.jpg"
 	], {duration: 3800, fade: 1500});
 
 
