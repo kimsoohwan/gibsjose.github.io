@@ -793,13 +793,20 @@
 						</ul>
 					</div>
 					<div class="col-sm-6 wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0s">
-						<form class="form-horizontal" action="assets/php/contactForm.php" method="post" role="form" id="contactForm">
+						<form class="form-horizontal" action="//formspree.io/gibsjose@mail.gvsu.edu" method="post" role="form" id="contactForm">
 							<div class="form-group">
+
+								<!-- Used to fool scrapers... -->
+								<input type="text" name="_gotcha" style="display:none" />
+
+								<!-- Used to redirect back to my site -->
+								<input type="hidden" name="_next" value="#" />
+
 								<div class="col-sm-6">
 									<input type="text" name="name" class="form-control" placeholder="Name">
 								</div>
 								<div class="col-sm-6">
-									<input type="text" name="contactEmail" class="form-control" placeholder="Email">
+									<input type="email" name="_replyto" class="form-control" placeholder="Email">
 								</div>
 							</div>
 							<div class="form-group">
