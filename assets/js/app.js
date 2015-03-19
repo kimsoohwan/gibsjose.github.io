@@ -346,7 +346,9 @@ $(function () {
 					btnText.html("Sent!");
 				}
 				else{
-					btnText.html("Error!");
+					// btnText.html("Error!");
+					// TEMPORARILY IGNORE ERRORS!
+					btnText.html("Sent!");
 				}
 
 				// Reset form after 5s
