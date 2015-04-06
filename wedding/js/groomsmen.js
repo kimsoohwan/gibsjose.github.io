@@ -3,12 +3,13 @@
 
 $(document).ready(function() {
 r = function() {
-$('.img-5').attr('src', (window.devicePixelRatio > 1) ? ((window.devicePixelRatio > 2) ? 'images/ribbonbanner-2880.png' : 'images/ribbonbanner-1920.png') : 'images/ribbonbanner-960.png');};
+$('.img-9').attr('src', (window.devicePixelRatio > 1) ? ((window.devicePixelRatio > 2) ? 'images/ribbonbanner-2880.png' : 'images/ribbonbanner-1920.png') : 'images/ribbonbanner-960.png');
+$('.img-10').attr('src', (window.devicePixelRatio > 1) ? ((window.devicePixelRatio > 2) ? 'images/tuxedo-1170.jpg' : 'images/tuxedo-780.jpg') : 'images/tuxedo-390.jpg');};
 $(window).resize(r);
 r();
 if(location.protocol === 'file:')
 {
 $("head").append($("<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Cinzel|Josefin+Slab:400,400i,700&amp;subset=all'></link>"));
 }
-if('ontouchstart' in window) { $("html").addClass("nofixed"); }$('.cont-68').Stickyfill();
+if('ontouchstart' in window) { $("html").addClass("nofixed"); }$('.cont-217').Stickyfill();
 });
