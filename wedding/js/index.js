@@ -9,9 +9,5 @@ $('.img-3').attr('src', (window.devicePixelRatio > 1) ? ((window.devicePixelRati
 $('.img-4').attr('src', (window.devicePixelRatio > 1) ? ((window.devicePixelRatio > 2) ? 'images/img_1604_3-933.jpg' : 'images/img_1604_3-622.jpg') : 'images/img_1604_3-311.jpg');};
 $(window).resize(r);
 r();
-if(location.protocol === 'file:')
-{
-$("head").append($("<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Cinzel|Josefin+Slab:400,700&amp;subset=all'></link>"));
-}
 if('ontouchstart' in window) { $("html").addClass("nofixed"); }$('.cont-36').Stickyfill();
 });

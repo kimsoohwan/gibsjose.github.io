@@ -20,9 +20,5 @@ var a='data-lazy'; if($('.gallery .slider-for .slide6').hasAttr('src')) { a='src
 $('.gallery .slider-nav .slide6').attr('src', (window.devicePixelRatio > 1) ? ((window.devicePixelRatio > 2) ? 'images/thumb-waterfallpark-486.jpg' : 'images/thumb-waterfallpark-324.jpg') : 'images/thumb-waterfallpark-162.jpg');};
 $(window).resize(r);
 r();
-if(location.protocol === 'file:')
-{
-$("head").append($("<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Cinzel|Josefin+Slab:700&amp;subset=all'></link>"));
-}
 if('ontouchstart' in window) { $("html").addClass("nofixed"); }var mapOptions = {zoom: 17,center: new google.maps.LatLng(45.3792062, -84.9512565),mapTypeId: google.maps.MapTypeId.ROADMAP,};var map = new google.maps.Map($('.map').get(0), mapOptions);var marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(45.3792062, -84.9512565),});var infowindow = new google.maps.InfoWindow({content: "<div class=\"map-label\"><b>Ceremony Location</b><br>Waterfall Area at Sunset Park,<br>Petoskey, MI 49770</div>",});google.maps.event.addListener(marker, "click", function() {infowindow.open(map, marker);});infowindow.open(map, marker);$('.gallery .slider-for').slick({lazyLoad: 'ondemand',slidesToShow: 1,slidesToScroll: 1,arrows: false,fade: true,infinite: true,asNavFor: '.gallery .slider-nav',});$('.gallery .slider-nav').slick({slidesToShow: 5,slidesToScroll: 1,asNavFor: '.gallery .slider-for',centerMode: true,focusOnSelect: true,dots: false,arrows: true,infinite: true});$('.cont-101').Stickyfill();
 });

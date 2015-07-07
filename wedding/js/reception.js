@@ -16,9 +16,5 @@ var a='data-lazy'; if($('.gallery-2 .slider-for .slide4').hasAttr('src')) { a='s
 $('.gallery-2 .slider-nav .slide4').attr('src', (window.devicePixelRatio > 1) ? ((window.devicePixelRatio > 2) ? 'images/thumb-screen-shot-2015-03-13-at-23.07.29-828.png' : 'images/thumb-screen-shot-2015-03-13-at-23.07.29-552.png') : 'images/thumb-screen-shot-2015-03-13-at-23.07.29-276.png');};
 $(window).resize(r);
 r();
-if(location.protocol === 'file:')
-{
-$("head").append($("<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Cinzel|Josefin+Slab:700&amp;subset=all'></link>"));
-}
 if('ontouchstart' in window) { $("html").addClass("nofixed"); }var mapOptions = {zoom: 16,center: new google.maps.LatLng(45.3759091, -84.95394379999999),mapTypeId: google.maps.MapTypeId.ROADMAP,};var map = new google.maps.Map($('.map-2').get(0), mapOptions);var marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(45.3759091, -84.95394379999999),});var infowindow = new google.maps.InfoWindow({content: "<div class=\"map-2-label\"><b>Reception Location</b><br>Stafford's Perry Hotel<br>100 Lewis St<br>Petoskey, MI 49770</div>",});google.maps.event.addListener(marker, "click", function() {infowindow.open(map, marker);});infowindow.open(map, marker);$('.gallery-2 .slider-for').slick({lazyLoad: 'ondemand',slidesToShow: 1,slidesToScroll: 1,arrows: false,fade: true,infinite: true,asNavFor: '.gallery-2 .slider-nav',});$('.gallery-2 .slider-nav').slick({slidesToShow: 3,slidesToScroll: 1,asNavFor: '.gallery-2 .slider-for',centerMode: true,focusOnSelect: true,dots: false,arrows: true,infinite: true});$('.cont-134').Stickyfill();
 });

@@ -18,18 +18,18 @@
 		<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
 		<link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120x120.png">
 		<meta name="viewport" content="width=960">
-		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Cinzel|Josefin+Slab:400,700&amp;subset=all">
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Cinzel|Josefin+Slab:400,700&amp;subset=all">
 		<meta name="description" content="Gibson&ndash;Paniagua Wedding Information">
 		<title>Gibson&ndash;Paniagua</title>
-		<link rel="stylesheet" type="text/css" href="css/site.20150405210145.css">
+		<link rel="stylesheet" type="text/css" href="css/site.20150706204743.css">
 		<!--[if lte IE 7]>
-		<link rel="stylesheet" type="text/css" href="css/site.20150405210145-lteIE7.css">
+		<link rel="stylesheet" type="text/css" href="css/site.20150706204743-lteIE7.css">
 		<![endif]-->
 		<!--[if lte IE 8]>
-		<link rel="stylesheet" type="text/css" href="css/site.20150405210145-lteIE8.css">
+		<link rel="stylesheet" type="text/css" href="css/site.20150706204743-lteIE8.css">
 		<![endif]-->
 		<!--[if gte IE 9]>
-		<link rel="stylesheet" type="text/css" href="css/site.20150405210145-gteIE9.css">
+		<link rel="stylesheet" type="text/css" href="css/site.20150706204743-gteIE9.css">
 		<![endif]-->
 	</head>
 	<body id="body">
@@ -130,5 +130,9 @@
 		<script type="text/javascript" src="js/jquery.js"></script>
 		<script type="text/javascript" src="js/stickyfill.js"></script>
 		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript">
+			var androidBrowserVersion = RegExp(/Mozilla\/5\.0 \(Linux; .; Android ([\d.]+)/).exec(navigator.userAgent);
+if(androidBrowserVersion && parseFloat(androidBrowserVersion[1]) < 5) { document.getElementsByTagName('body')[0].className+=' whitespacefix'; }
+		</script>
 	</body>
 </html>

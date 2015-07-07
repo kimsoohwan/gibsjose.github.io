@@ -6,9 +6,5 @@ r = function() {
 $('.img-5').attr('src', (window.devicePixelRatio > 1) ? ((window.devicePixelRatio > 2) ? 'images/ribbonbanner-2880.png' : 'images/ribbonbanner-1920.png') : 'images/ribbonbanner-960.png');};
 $(window).resize(r);
 r();
-if(location.protocol === 'file:')
-{
-$("head").append($("<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Cinzel|Josefin+Slab:400,400i,700&amp;subset=all'></link>"));
-}
 if('ontouchstart' in window) { $("html").addClass("nofixed"); }$('.cont-68').Stickyfill();
 });

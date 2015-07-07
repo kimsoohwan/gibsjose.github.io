@@ -3,9 +3,8 @@
 
 $(document).ready(function() {
 r = function() {
-$('.img-9').attr('src', (window.devicePixelRatio > 1) ? ((window.devicePixelRatio > 2) ? 'images/ribbonbanner-2880.png' : 'images/ribbonbanner-1920.png') : 'images/ribbonbanner-960.png');
-$('.img-10').attr('src', (window.devicePixelRatio > 1) ? ((window.devicePixelRatio > 2) ? 'images/tuxedo-1170.jpg' : 'images/tuxedo-780.jpg') : 'images/tuxedo-390.jpg');};
+$('.img-12').attr('src', (window.devicePixelRatio > 1) ? ((window.devicePixelRatio > 2) ? 'images/ribbonbanner-2880.png' : 'images/ribbonbanner-1920.png') : 'images/ribbonbanner-960.png');};
 $(window).resize(r);
 r();
-if('ontouchstart' in window) { $("html").addClass("nofixed"); }$('.cont-217').Stickyfill();
+if('ontouchstart' in window) { $("html").addClass("nofixed"); }$('.cont-275').Stickyfill();
 });
