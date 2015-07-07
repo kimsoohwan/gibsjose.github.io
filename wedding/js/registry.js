@@ -6,5 +6,5 @@ r = function() {
 $('.img-12').attr('src', (window.devicePixelRatio > 1) ? ((window.devicePixelRatio > 2) ? 'images/ribbonbanner-2880.png' : 'images/ribbonbanner-1920.png') : 'images/ribbonbanner-960.png');};
 $(window).resize(r);
 r();
-if('ontouchstart' in window) { $("html").addClass("nofixed"); }$('.cont-275').Stickyfill();
+if('ontouchstart' in window) { $("html").addClass("nofixed"); }$('.cont-276').Stickyfill();
 });
