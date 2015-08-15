@@ -72,9 +72,6 @@ a:focus {
     color: #2b9fe9;
     text-decoration: none;
 }
-ul {
-    list-style-type: square;
-}
 a:hover {
     color: #34be5b;
     text-decoration: none;
@@ -87,6 +84,17 @@ a:after {
     -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
     -o-transition: color 0.1s ease-in, background 0.1s ease-in;
     transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+a.resume-label:link,
+a.resume-label:visited,
+a.resume-label:focus {
+    color: #606060
+}
+a.resume-label:hover {
+    color: #34be5b;
+}
+ul {
+    list-style-type: square;
 }
 /* ---------------------------------------------------------
 *	Helper classes
