@@ -185,7 +185,7 @@ $(function () {
 	$(".navbar-nav").find("a").on("click", function(e){
 		e.preventDefault();
 		if($(this).attr("href") != "#"){
-			$.scrollTo($(this).attr("href"),1000, {offset: {left: 0, top: -80}});
+			$.scrollTo($(this).attr("href"),1000, {offset: {left: 0, top: -70}});
 		}
 	});
 
