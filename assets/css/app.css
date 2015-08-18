@@ -102,11 +102,8 @@ ul {
 .stars {
     color: #FFFF38;
 }
-.stars:after {
-    content: #34be5b;
-}
 .fa-check {
-    color: #
+    color: #34be5b;
 }
 .highlighted-black {
     background-color: rgba(0,0,0,.5);
