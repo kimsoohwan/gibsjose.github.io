@@ -222,6 +222,7 @@ ul {
     color: #646464;
 }
 .section-solid-yellow {
+    background-color: #FFFF38 !important;
     background: #FFFF38;
     color: #646464;
 }
