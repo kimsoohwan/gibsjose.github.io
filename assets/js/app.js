@@ -47,7 +47,8 @@ $(function () {
 
 	// $(".stars-three")
 	// 	.html("<i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i>");
-	jQuery(".stars-two-half").html("<i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star-half-o\"></i>");
+	$(".stars-two-half").html("<i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star-half-o\"></i>");
+	$(".test").prepend("TEST TEST TEST TEST!");
 	// $(".stars-two")
 	// 	.html("<i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star-o\"></i>");
 	// $(".stars-one-half")
