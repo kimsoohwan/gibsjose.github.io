@@ -1,0 +1,11 @@
+# Ignore Temp Files
+*~
+~*
+#*
+*#
+
+# Temporarily Ignore Large PDFs
+assets/pdf/CERN
+assets/pdf/GVSU
+assets/pdf/NASA
+assets/pdf/RFCx
