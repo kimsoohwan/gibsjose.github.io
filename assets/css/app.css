@@ -191,10 +191,13 @@ ul {
     text-transform: uppercase;
     font-weight: 700;
 }
-.section-title-grey {
+.section-title-blog {
     margin: 0 0 20px;
-    font-size: 32px;
-    font-weight: 700;
+    text-align: left;
+    font-family: 'Righteous', cursive !important;
+    font-weight: 700 !important;
+    font-size: 48px;
+    color: #404040 !important;
 }
 .section-title-border {
     width: 70px;
