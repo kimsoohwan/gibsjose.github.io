@@ -1295,29 +1295,10 @@ form.signup button.btn {
 /*
 * Blog
 * --------------------------------------------------------- */
-.blog-section {
-    z-index: 2000;
-    padding: 50px 0;
-    background-color: #FFFF38 !important;
-    color: #404040 !important;
-    font-weight: 700 !important;
+.microamps:hover {
+    fill: #2b9fe9;
 }
 
-.blog-title {
-    font-family: 'Righteous', cursive !important;
-    font-weight: 700 !important;
-    font-size: 4em;
-    color: #404040 !important;
-}
-.blog-title a:link {
-    color: #404040;
-}
-.blog-title a:hover {
-    color: #2b9fe9;
-}
-.blog-title a:focus {
-    color: #404040;
-}
 .blog-img {
     background: none !important;
     border: none !important;
