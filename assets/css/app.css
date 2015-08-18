@@ -821,7 +821,7 @@ p.copyright {
     line-height: 1.5;
 }
 .btn-theme {
-    color: #fff;
+    color: #fff !important;
     background-color: transparent;
     border-color: #fff;
     -webkit-transition: all 500ms ease;
