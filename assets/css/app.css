@@ -1276,6 +1276,24 @@ form.signup button.btn {
     width: 387px;
 }
 /*
+* Blog
+* --------------------------------------------------------- */
+.blog-container {
+    background: #FFFF38;
+    color: #404040;
+}
+
+.blog-title {
+    font-family: 'Righteous', cursive !important;
+    font-weight: 700 !important;
+    color: #404040 !important;
+}
+.blog-img {
+    background: none !important;
+    border: none !important;
+}
+
+/*
 * Portfolio
 * --------------------------------------------------------- */
 #portfolio-container {
