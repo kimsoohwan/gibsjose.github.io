@@ -1279,15 +1279,21 @@ form.signup button.btn {
 * Blog
 * --------------------------------------------------------- */
 .blog-section {
-    background: #FFFF38;
-    color: #404040;
-    font-weight: 700;
+    background: #FFFF38 !important;
+    color: #404040 !important;
+    font-weight: 700 !important;
 }
 
 .blog-title {
     font-family: 'Righteous', cursive !important;
     font-weight: 700 !important;
     color: #404040 !important;
+}
+.blog-title a:link {
+    color: #404040;
+}
+.blog-title a:hover {
+    color: #2b9fe9;
 }
 .blog-img {
     background: none !important;
