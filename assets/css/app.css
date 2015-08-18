@@ -1287,6 +1287,7 @@ form.signup button.btn {
 .blog-title {
     font-family: 'Righteous', cursive !important;
     font-weight: 700 !important;
+    font-size: 4em;
     color: #404040 !important;
 }
 .blog-title a:link {
@@ -1294,6 +1295,9 @@ form.signup button.btn {
 }
 .blog-title a:hover {
     color: #2b9fe9;
+}
+.blog-title a:focus {
+    color: #404040;
 }
 .blog-img {
     background: none !important;
