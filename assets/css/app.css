@@ -1299,6 +1299,10 @@ form.signup button.btn {
     fill: #2b9fe9;
 }
 
+.code-microamps {
+    word-wrap: break-word !important;
+}
+
 .blog-img {
     background: none !important;
     border: none !important;
