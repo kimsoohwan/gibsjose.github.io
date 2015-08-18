@@ -103,9 +103,11 @@ ul {
     color: #FFFF38;
 }
 .stars:after {
-    content: "  ";
+    content: #34be5b;
 }
-
+.fa-check {
+    color: #
+}
 .highlighted-black {
     background-color: rgba(0,0,0,.5);
 }
@@ -923,9 +925,8 @@ form.signup button.btn {
     box-shadow: none;
 }
 .progress-bar {
-    background-color: #FFFF38;
-    background: rgb(46, 137, 221);
-    color: #404040;
+    background-color: #2b9fe9;
+    color: #FFFF38;
     font-weight: bold;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
