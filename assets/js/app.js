@@ -45,20 +45,20 @@ $(function () {
 	 *	Stars
 	 */
 
-	$(".stars-three")
-		.html("<i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i>");
-	$(".stars-two-half")
-		.html("<i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star-half-o\"></i>");
-	$(".stars-two")
-		.html("<i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star-o\"></i>");
-	$(".stars-one-half")
-		.html("<i class=\"fa fa-star\"></i><i class=\"fa fa-half-o\"></i><i class=\"fa fa-star-o\"></i>");
-	$(".stars-one")
-		.html("<i class=\"fa fa-star\"></i><i class=\"fa fa-star-o\"></i><i class=\"fa fa-star-o\"></i>");
-	$(".stars-half")
-		.html("<i class=\"fa fa-star-half-o\"></i><i class=\"fa fa-star-o\"></i><i class=\"fa fa-star-o\"></i>");
-	$(".stars-none")
-		.html("<i class=\"fa fa-star-o\"></i><i class=\"fa fa-star-o\"></i><i class=\"fa fa-star-o\"></i>");
+	// $(".stars-three")
+	// 	.html("<i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i>");
+	// $(".stars-two-half")
+	// 	.html("<i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star-half-o\"></i>");
+	// $(".stars-two")
+	// 	.html("<i class=\"fa fa-star\"></i><i class=\"fa fa-star\"></i><i class=\"fa fa-star-o\"></i>");
+	// $(".stars-one-half")
+	// 	.html("<i class=\"fa fa-star\"></i><i class=\"fa fa-half-o\"></i><i class=\"fa fa-star-o\"></i>");
+	// $(".stars-one")
+	// 	.html("<i class=\"fa fa-star\"></i><i class=\"fa fa-star-o\"></i><i class=\"fa fa-star-o\"></i>");
+	// $(".stars-half")
+	// 	.html("<i class=\"fa fa-star-half-o\"></i><i class=\"fa fa-star-o\"></i><i class=\"fa fa-star-o\"></i>");
+	// $(".stars-none")
+	// 	.html("<i class=\"fa fa-star-o\"></i><i class=\"fa fa-star-o\"></i><i class=\"fa fa-star-o\"></i>");
 
 	/* ---------------------------------------------------------
 	 *	WOW
