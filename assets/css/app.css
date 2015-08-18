@@ -97,6 +97,22 @@ ul {
     list-style-type: square;
 }
 /* ---------------------------------------------------------
+*	Custom Styles
+*  --------------------------------------------------------- */
+.stars {
+    color: #FFFF38;
+}
+.stars:after {
+    content: "  ";
+}
+
+.highlighted-black {
+    background-color: rgba(0,0,0,.5);
+}
+.highlighted-yellow {
+    background-color: rgba(255, 255, 56, 0.6);
+}
+/* ---------------------------------------------------------
 *	Helper classes
 *  --------------------------------------------------------- */
 .mt20 {
