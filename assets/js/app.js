@@ -20,13 +20,26 @@ $(function () {
 	 */
 
 	$.backstretch([
-		"assets/img/background/1.jpg",
-		"assets/img/background/2.jpg",
-		"assets/img/background/3.jpg",
-		"assets/img/background/4.jpg",
-		"assets/img/background/5.jpg",
-		"assets/img/background/6.jpg",
-		"assets/img/background/7.jpg"
+		// "assets/img/background/polygon/1.jpg",
+		// "assets/img/background/polygon/2.jpg",
+		// "assets/img/background/polygon/3.jpg",
+		// "assets/img/background/polygon/4.jpg",
+		// "assets/img/background/polygon/5.jpg",
+		// "assets/img/background/polygon/6.jpg",
+		// "assets/img/background/polygon/7.jpg"
+		"assets/img/background/space/1.jpg",
+		"assets/img/background/space/2.jpg",
+		"assets/img/background/space/3.jpg",
+		"assets/img/background/space/4.jpg",
+		"assets/img/background/space/5.jpg",
+		"assets/img/background/space/6.jpg",
+		"assets/img/background/space/7.jpg",
+		"assets/img/background/space/8.jpg",
+		"assets/img/background/space/9.jpg",
+		"assets/img/background/space/10.jpg",
+		"assets/img/background/space/11.jpg",
+		"assets/img/background/space/12.jpg",
+		"assets/img/background/space/13.jpg"
 	], {duration: 3800, fade: 1500});
 
 
