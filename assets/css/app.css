@@ -191,6 +191,11 @@ ul {
     text-transform: uppercase;
     font-weight: 700;
 }
+.section-title-grey {
+    margin: 0 0 20px;
+    font-size: 32px;
+    font-weight: 700;
+}
 .section-title-border {
     width: 70px;
     height: 3px;
@@ -214,6 +219,10 @@ ul {
 }
 .section-solid-white {
     background: #fff;
+    color: #646464;
+}
+.section-solid-yellow {
+    background: #FFFF38;
     color: #646464;
 }
 .section-solid-white h1,
@@ -1279,7 +1288,9 @@ form.signup button.btn {
 * Blog
 * --------------------------------------------------------- */
 .blog-section {
-    background: #FFFF38 !important;
+    z-index: 2000;
+    padding: 50px 0;
+    background-color: #FFFF38 !important;
     color: #404040 !important;
     font-weight: 700 !important;
 }
