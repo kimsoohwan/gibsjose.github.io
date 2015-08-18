@@ -907,7 +907,9 @@ form.signup button.btn {
     box-shadow: none;
 }
 .progress-bar {
-    background-color: #869198;
+    background-color: #FFFF38;
+    color: #404040;
+    font-weight: bold;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
