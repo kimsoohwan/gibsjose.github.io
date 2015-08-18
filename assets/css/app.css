@@ -194,9 +194,6 @@ ul {
 .section-title-blog {
     margin: 0 0 20px;
     text-align: left;
-    font-family: 'Righteous', cursive !important;
-    font-weight: 700 !important;
-    font-size: 48px;
     color: #404040 !important;
 }
 .section-title-border {
@@ -229,6 +226,13 @@ ul {
     background: #FFFF38;
     color: #646464;
 }
+.section-solid-yellow h3 {
+    font-family: 'Righteous', cursive !important;
+    font-weight: 700 !important;
+    font-size: 48px;
+    color: #646464;
+}
+
 .section-solid-white h1,
 .section-solid-white h2,
 .section-solid-white h3,
