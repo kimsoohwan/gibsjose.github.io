@@ -1278,9 +1278,10 @@ form.signup button.btn {
 /*
 * Blog
 * --------------------------------------------------------- */
-.blog-container {
+.blog-section {
     background: #FFFF38;
     color: #404040;
+    font-weight: 700;
 }
 
 .blog-title {
