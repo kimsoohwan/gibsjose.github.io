@@ -115,12 +115,11 @@ i.fa-check {
 h3.logo {
     font-family: 'Righteous', cursive !important;
     font-weight: 700 !important;
-    font-size: 64px;
+    font-size: 5em;
     color: #666666;
 }
 img.logo {
-    display: inline-block;
-    height: 80px;
+    height: 64px;
 }
 /* ---------------------------------------------------------
 *	Helper classes
