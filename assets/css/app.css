@@ -724,9 +724,14 @@ p.copyright {
     border: 0;
     box-shadow: none;
 }
+.navbar-header {
+
+}
 .navbar-brand {
     padding: 15px 0;
     position: relative;
+    top: 50%;
+	transform: translateY(-50%);
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
