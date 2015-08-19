@@ -750,6 +750,7 @@ p.copyright {
 }
 .navbar-default .navbar-toggle {
     border-color: #FFFF38;
+    color: #FFFF38;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
