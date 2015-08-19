@@ -1025,8 +1025,8 @@ form.signup button.btn {
     z-index: 5000;
     top: 0;
     left: 0;
-    height: 8px;
-    background-color: #fff;
+    height: 16px;
+    background-color: #2B9FE9;
     -webkit-transition: -webkit-transform 0.3s, width 1s;
     -moz-transition: width 1s;
     -o-transform: width 1s;
@@ -1040,7 +1040,7 @@ form.signup button.btn {
 .pace .pace-activity:before {
     content: '';
     background-color: #202020;
-    background-image: url('../img/logo/logo.png');
+    background-image: url('../img/icon/icon-256.png');
     background-repeat: no-repeat;
     background-position: center center;
     display: block;
