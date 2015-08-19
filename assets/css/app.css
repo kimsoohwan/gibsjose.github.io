@@ -111,14 +111,16 @@ i.fa-check {
 .highlighted-yellow {
     background-color: rgba(255, 255, 56, 0.6);
 }
-.logo h3 {
+
+h3.logo {
     font-family: 'Righteous', cursive !important;
     font-weight: 700 !important;
     font-size: 64px;
     color: #666666;
 }
-.logo img {
-    height: auto;
+img.logo {
+    display: inline-block;
+    height: 80px;
 }
 /* ---------------------------------------------------------
 *	Helper classes
