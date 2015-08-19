@@ -749,12 +749,12 @@ p.copyright {
     border-radius: 0px;
 }
 .navbar-default .navbar-toggle {
-    border-color: #fff;
+    border-color: #FFFF38;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #fff;
-    color: #000;
+    background-color: #FFFF38;
+    color: #202020;
 }
 @media (max-width: 768px) {
     .navbar-default .navbar-collapse,
