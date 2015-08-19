@@ -9,3 +9,6 @@ assets/pdf/CERN
 assets/pdf/GVSU
 assets/pdf/NASA
 assets/pdf/RFCx
+
+# Ignore un-needed backgrounds
+assets/img/background/polygon
