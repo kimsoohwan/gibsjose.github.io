@@ -1452,9 +1452,9 @@ form.signup button.btn {
 }
 
 .github-card {
-    target: blank;
-    width: 400px;
-    height: 400px;
+    data-target: blank;
+    data-width: 400px;
+    data-height: 400px;
 }
 
 /*
