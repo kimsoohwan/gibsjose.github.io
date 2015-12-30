@@ -3,6 +3,7 @@
 ~*
 #*
 *#
+*.DS_Store
 
 # Temporarily Ignore Large PDFs
 assets/pdf/CERN
