@@ -44,6 +44,23 @@
 		  ga('send', 'pageview');
 
 		</script>
+        
+        <!-- Load GPG Key Text -->
+        <script type="text/javascript">
+        function gpgload() {
+            var file = new XMLHttpRequest();
+            file.open("GET", "https://keybase.io/gibsjose/key.asc", true);
+            file.onreadystatechange = function() {
+              if (file.readyState === 4) {  // Makes sure the document is ready to parse
+                if (file.status === 200) {  // Makes sure it's found the file
+                  text = file.responseText;
+                  document.getElementById("gpg-key-code").innerHTML = text;
+                }
+              }
+            }
+        }
+        window.onLoad = gpgload();
+        </script>
 	</head>
 	<body data-spy="scroll" data-target="#nav" data-offset="80">
 		<!-- Menu -->
@@ -1032,22 +1049,6 @@
 				</div>
 			</div>
 		</footer>
-        
-        <!-- <script type="text/javascript">
-        function gpgload() {
-            var file = new XMLHttpRequest();
-            file.open("GET", "https://keybase.io/gibsjose/key.asc", true);
-            file.onreadystatechange = function() {
-              if (file.readyState === 4) {  // Makes sure the document is ready to parse
-                if (file.status === 200) {  // Makes sure it's found the file
-                  text = file.responseText;
-                  document.getElementById("gpg-key-code").innerHTML = text;
-                }
-              }
-            }
-        }
-        window.onLoad = gpgload();
-        </script> -->
         
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="//www.gibsjose.com/assets/js/jquery.min.js"></script>
