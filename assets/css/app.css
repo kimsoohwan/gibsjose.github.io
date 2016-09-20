@@ -123,7 +123,9 @@ img.logo {
     max-width: auto;
 }
 .gpg-key {
-    overflow-y: scroll
+    overflow-y: scroll;
+    height: 200px;
+    width: 110%;
 }
 /* ---------------------------------------------------------
 *	Helper classes
