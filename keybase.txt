@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/gibsjose
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://gibsjose.com
+  * I am gibsjose (https://keybase.io/gibsjose) on keybase.
+  * I have a public key ASDrHzMZ3guRa_BSfks3t7pQilC66i_-Hs-WGQBArCIwZQo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120eb1f3319de0b916bf0527e4b37b7ba508a50baea2ffe1ecf96190040ac2230650a",
+            "host": "keybase.io",
+            "kid": "0120eb1f3319de0b916bf0527e4b37b7ba508a50baea2ffe1ecf96190040ac2230650a",
+            "uid": "10a90c8e7cf78258dddcd662934a5d19",
+            "username": "gibsjose"
+        },
+        "service": {
+            "hostname": "gibsjose.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.17"
+    },
+    "ctime": 1474344411,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1474344341,
+        "hash": "43639a57f18befe4c999c7c721e826afaefac3b5fc1d89ae7975239b6384a73ce161c106dbeb6428b2940753e06fe486813671fb549398d31b96173cd2230ff1",
+        "seqno": 644279
+    },
+    "prev": "09092c6e28cd48bcde69df4785faa8cc236470c6bd3cacc10db837def625fb06",
+    "seqno": 14,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg6x8zGd4LkWvwUn5LN7e6UIpQuuov/h7PlhkAQKwiMGUKp3BheWxvYWTFAvV7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZWIxZjMzMTlkZTBiOTE2YmYwNTI3ZTRiMzdiN2JhNTA4YTUwYmFlYTJmZmUxZWNmOTYxOTAwNDBhYzIyMzA2NTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZWIxZjMzMTlkZTBiOTE2YmYwNTI3ZTRiMzdiN2JhNTA4YTUwYmFlYTJmZmUxZWNmOTYxOTAwNDBhYzIyMzA2NTBhIiwidWlkIjoiMTBhOTBjOGU3Y2Y3ODI1OGRkZGNkNjYyOTM0YTVkMTkiLCJ1c2VybmFtZSI6ImdpYnNqb3NlIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJnaWJzam9zZS5jb20iLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xNyJ9LCJjdGltZSI6MTQ3NDM0NDQxMSwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDc0MzQ0MzQxLCJoYXNoIjoiNDM2MzlhNTdmMThiZWZlNGM5OTljN2M3MjFlODI2YWZhZWZhYzNiNWZjMWQ4OWFlNzk3NTIzOWI2Mzg0YTczY2UxNjFjMTA2ZGJlYjY0MjhiMjk0MDc1M2UwNmZlNDg2ODEzNjcxZmI1NDkzOThkMzFiOTYxNzNjZDIyMzBmZjEiLCJzZXFubyI6NjQ0Mjc5fSwicHJldiI6IjA5MDkyYzZlMjhjZDQ4YmNkZTY5ZGY0Nzg1ZmFhOGNjMjM2NDcwYzZiZDNjYWNjMTBkYjgzN2RlZjYyNWZiMDYiLCJzZXFubyI6MTQsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RA8ZHruqISTXNS8uEXUT1oUCaB8Kqi/Eo3Yp5EGwq1jq9AG2KBm3x5UIk6Oi8BcLjSyPm4AWue637jWWYwUxQODKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJpmROmRQHkEQ77DrYl55by0HzX0lUE+uCZfErwzGtifo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/gibsjose
+
+==================================================================
