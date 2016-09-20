@@ -54,7 +54,7 @@
               if (file.readyState === 4) {  // Makes sure the document is ready to parse
                 if (file.status === 200) {  // Makes sure it's found the file
                   text = file.responseText;
-                  document.getElementById("gpg-key-code").innerHTML = text;
+                  document.getElementById("test-div").innerHTML = text;
                 }
               }
             }
@@ -102,6 +102,9 @@
 							<span class="rotate">Engineer,Hiker,Scientist,Brewer,Backpacker</h2></span>
 							</h3>
 						</p>
+                        <div id="test-div">
+                            Test
+                        </div>
 					</div>
 					<div class="arrow-down">
 						<a class="scroll" href="#about" id="scroll"><i class="fa fa-angle-double-down"></i></a>
