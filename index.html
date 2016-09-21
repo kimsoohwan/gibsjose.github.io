@@ -9,13 +9,15 @@
 
 		<!-- Stylesheets -->
 		<link href="//www.gibsjose.com/assets/css/bootstrap.min.css" rel="stylesheet">
-		<link href="//www.gibsjose.com/assets/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 		<link href="//www.gibsjose.com/assets/css/bootstrapValidator.min.css" rel="stylesheet">
 		<link href="//www.gibsjose.com/assets/css/ladda-themeless.min.css" rel="stylesheet">
 		<link href="//www.gibsjose.com/assets/css/jquery.bxslider.css" rel="stylesheet">
 		<link href="//www.gibsjose.com/assets/css/animate.css" rel="stylesheet">
 		<link href="//www.gibsjose.com/assets/css/app.css" rel="stylesheet">
 		<link href="//www.gibsjose.com/assets/css/prism.css" rel="stylesheet">
+        
+        <!-- Font Awesome -->
+        <script src="https://use.fontawesome.com/08a79aadf0.js"></script>
 
 		<!-- Google Fonts (For Blog) -->
 		<link href='https://fonts.googleapis.com/css?family=Raleway:400,700|Righteous|EB+Garamond&subset=latin,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
@@ -44,23 +46,6 @@
 		  ga('send', 'pageview');
 
 		</script>
-        
-        <!-- Load GPG Key Text -->
-        <!-- <script type="text/javascript">
-        function gpgload() {
-            var file = new XMLHttpRequest();
-            file.open("GET", "https://gibsjose.com/keybase.txt", true);
-            file.onreadystatechange = function() {
-              if (file.readyState === 4) {  // Makes sure the document is ready to parse
-                if (file.status === 200) {  // Makes sure it's found the file
-                  text = file.responseText;
-                  document.getElementById("test-div").innerHTML = text;
-                }
-              }
-            }
-        }
-        window.onLoad = gpgload();
-        </script> -->
 	</head>
 	<body data-spy="scroll" data-target="#nav" data-offset="80">
 		<!-- Menu -->
@@ -81,7 +66,6 @@
 						<li><a href="#home">Home<span class="sr-only">home</span></a></li>
 						<li><a href="#about">About</a></li>
 						<li><a href=#blog>Blog</a></li>
-						<!-- <li><a href="#services">Services</a></li> -->
 						<li><a href="#resume">Resume</a></li>
 						<li><a href="#skills">Skills</a></li>
 						<li><a href="https://github.com/gibsjose">GitHub</a></li>
@@ -176,108 +160,6 @@
 					<div class="col-sm-12 text-center wow fadeInDown" data-wow-duration="0.7s" data-wow-delay="0s">
 						<i class="fa fa-twitter twitter-feed-icon"></i>
 						<span id="twitterFeed"></span>
-					</div>
-				</div>
-			</div>
-		</section> -->
-
-		<!-- Services -->
-		<!-- <section class="section section-solid-white" id="hobbies">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12">
-						<h3 class="section-title">Hobbies</h3>
-						<div class="section-title-border"></div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-6 wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0s">
-						<div class="feature-box-container">
-							<div class="feature-box">
-								<div class="icon">
-									<i class="fa fa-life-ring"></i>
-								</div>
-								<div class="description">
-									<h4>Quisque ullamcorper</h4>
-									<p>Nam pharetra, nunc eget faucibus
-										vulputate, libero eros commodo
-										nibh, non laoreet arcu est non dolor.
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="feature-box-container">
-							<div class="feature-box">
-								<div class="icon">
-									<i class="fa fa-gift"></i>
-								</div>
-								<div class="description">
-									<h4>Sed non quam iaculis</h4>
-									<p>Vestibulum nec eros vestibulum,
-										vehicula metus eu, mattis libero.
-										Ut ac libero elementum, rutrum diam bibendum,
-										consectetur metus.
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="feature-box-container">
-							<div class="feature-box">
-								<div class="icon">
-									<i class="fa fa-paint-brush"></i>
-								</div>
-								<div class="description">
-									<h4>Donec rutrum vitae</h4>
-									<p>Vestibulum nec eros vestibulum,
-										vehicula metus eu, mattis libero.
-										Ut ac libero elementum, rutrum diam bibendum,
-										consectetur metus.
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0s">
-						<div class="feature-box-container">
-							<div class="feature-box">
-								<div class="icon">
-									<i class="fa fa-cogs"></i>
-								</div>
-								<div class="description">
-									<h4>Phasellus lobortis</h4>
-									<p>Fusce eu tellus vel tellus porttitor aliquet.
-										Etiam ullamcorper laoreet lectus ut suscipit.
-										Felis sed ante.
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="feature-box-container">
-							<div class="feature-box">
-								<div class="icon">
-									<i class="fa fa-rocket"></i>
-								</div>
-								<div class="description">
-									<h4>Donec rutrum vitae</h4>
-									<p>Quisque luctus felis sed ante elementum condimentum.
-										Praesent sagittis odio eu ante sollicitudin
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="feature-box-container">
-							<div class="feature-box">
-								<div class="icon">
-									<i class="fa fa-heart"></i>
-								</div>
-								<div class="description">
-									<h4>Nunc consectetur</h4>
-									<p>Sed ipsum nulla, eleifend ac consectetur ut, vehicula sed lacus.
-										Quisque lectus sem, vestibulum vel nibh.
-									</p>
-								</div>
-							</div>
-						</div>
 					</div>
 				</div>
 			</div>
@@ -810,169 +692,6 @@
 			</div>
 		</section>
 
-		<!-- GitHub -->
-		<!-- <section id="github" class="section section-solid">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12">
-						<h3 class="section-title">GitHub Repositories</h3>
-						<div class="section-title-border"></div>
-					</div>
-				</div>
-				<div class="row wow fadeInDown" data-wow-duration="0.7s" data-wow-delay="0s">
-					<div class="col-sm-12 text-center">
-						<ul id="filter" class="list-inline filter-tags">
-							<li><a href="#" class="btn btn-sm btn-theme-inverse active" data-group="all">All</a></li>
-							<li><a href="#" class="btn btn-sm btn-theme-inverse" data-group="c">C</a></li>
-							<li><a href="#" class="btn btn-sm btn-theme-inverse" data-group="c++">C++</a></li>
-							<li><a href="#" class="btn btn-sm btn-theme-inverse" data-group="python">Python</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="GITheWall">
-				<ul id="portfolio-container" class="text-center wow fadeInDown" data-wow-duration="0.7s" data-wow-delay="0s">
-					<li class="portfolio-item" data-groups='["all", "python"]' data-contenttype="ajax" data-href="assets/ajax/1.html">
-						<figure>
-							<div class="portfolio-img">
-								<a href="#" class="overlay">
-									<span class="title">zxcv</span>
-									<span class="category">Python</span>
-								</a>
-								<div class="github-card" data-user="gibsjose" data-repo="zxcv" data-target="blank" data-width="400" data-height="400"></div>
-							</div>
-						</figure>
-					</li>
-					<li class="portfolio-item" data-groups='["all", "web"]' data-contenttype="ajax" data-href="assets/ajax/2.html">
-						<figure>
-							<div class="portfolio-img">
-								<a href="#" class="overlay">
-									<span class="title">Suspendisse potenti</span>
-									<span class="category">web</span>
-								</a>
-								<img src="assets/img/portfolio/2.jpg" alt="" class="img-responsive">
-							</div>
-						</figure>
-					</li>
-					<li class="portfolio-item" data-groups='["all", "app"]' data-contenttype="ajax" data-href="assets/ajax/1.html">
-						<figure>
-							<div class="portfolio-img">
-								<a href="#" class="overlay">
-									<span class="title">Sed hendrerit</span>
-									<span class="category">app</span>
-								</a>
-								<img src="assets/img/portfolio/3.jpg" alt="" class="img-responsive">
-							</div>
-						</figure>
-					</li>
-					<li class="portfolio-item" data-groups='["all", "branding"]' data-contenttype="ajax" data-href="assets/ajax/2.html">
-						<figure>
-							<div class="portfolio-img">
-								<a href="#" class="overlay">
-									<span class="title">Etiam commodo lacus</span>
-									<span class="category">branding</span>
-								</a>
-								<img src="assets/img/portfolio/4.jpg" alt="" class="img-responsive">
-							</div>
-						</figure>
-					</li>
-					<li class="portfolio-item" data-groups='["all", "web"]' data-contenttype="ajax" data-href="assets/ajax/1.html">
-						<figure>
-							<div class="portfolio-img">
-								<a href="#" class="overlay">
-									<span class="title">Ac tristique</span>
-									<span class="category">web</span>
-								</a>
-								<img src="assets/img/portfolio/5.jpg" alt="" class="img-responsive">
-							</div>
-						</figure>
-					</li>
-					<li class="portfolio-item" data-groups='["all", "app"]' data-contenttype="ajax" data-href="assets/ajax/2.html">
-						<figure>
-							<div class="portfolio-img">
-								<a href="#" class="overlay">
-									<span class="title">Ipsum tempor quis</span>
-									<span class="category">app</span>
-								</a>
-								<img src="assets/img/portfolio/6.jpg" alt="" class="img-responsive">
-							</div>
-						</figure>
-					</li>
-					<li class="portfolio-item" data-groups='["all", "branding"]' data-contenttype="ajax" data-href="assets/ajax/1.html">
-						<figure>
-							<div class="portfolio-img">
-								<a href="#" class="overlay">
-									<span class="title">Donec accumsan</span>
-									<span class="category">branding</span>
-								</a>
-								<img src="assets/img/portfolio/7.jpg" alt="" class="img-responsive">
-							</div>
-						</figure>
-					</li>
-					<li class="portfolio-item" data-groups='["all", "web"]' data-contenttype="ajax" data-href="assets/ajax/2.html">
-						<figure>
-							<div class="portfolio-img">
-								<a href="#" class="overlay">
-									<span class="title">Arcu id porta</span>
-									<span class="category">web</span>
-								</a>
-								<img src="assets/img/portfolio/8.jpg" alt="" class="img-responsive">
-							</div>
-						</figure>
-					</li>
-					<li class="portfolio-item" data-groups='["all", "app"]' data-contenttype="ajax" data-href="assets/ajax/1.html">
-						<figure>
-							<div class="portfolio-img">
-								<a href="#" class="overlay">
-									<span class="title">Curabitur posuere</span>
-									<span class="category">app</span>
-								</a>
-								<img src="assets/img/portfolio/9.jpg" alt="" class="img-responsive">
-							</div>
-						</figure>
-					</li>
-					<li class="portfolio-item" data-groups='["all", "branding"]' data-contenttype="ajax" data-href="assets/ajax/2.html">
-						<figure>
-							<div class="portfolio-img">
-								<a href="#" class="overlay">
-									<span class="title">Lacus id sapien</span>
-									<span class="category">branding</span>
-								</a>
-								<img src="assets/img/portfolio/10.jpg" alt="" class="img-responsive">
-							</div>
-						</figure>
-					</li>
-				</ul>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12 text-center">
-						<a href="#" class="btn btn-theme-inverse mt40 wow fadeInDown" data-wow-duration="0.7s" data-wow-delay="0.5s" id="portfolio-more">More</a>
-					</div>
-				</div>
-			</div>
-		</section> -->
-
-		<!-- Facts -->
-		<section id="facts" class="section">
-			<div class="container">
-				<div class="row text-center wow fadeInDown" data-wow-duration="0.7s" data-wow-delay="0s">
-					<div class="col-sm-3">
-						<h1 class="counter">3.5</h1>
-						<p>years of experience</p>
-					</div>
-					<div class="col-sm-3">
-						<h1 class="counter">8</h1>
-						<p>years coding</p>
-					</div>
-					<div class="col-sm-3">
-						<h1 class="counter">200000</h1>
-						<p>lines of code written</p>
-					</div>
-				</div>
-			</div>
-		</section>
-
 		<!-- Contact -->
 		<section id="contact" class="section">
 			<div class="container">
@@ -983,7 +702,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-sm-12 wow fadeIn" data-wow-duration="0.7s" data-wow-delay="0s">
+					<div class="col-sm-12 wow fadeInDown" data-wow-duration="0.7s" data-wow-delay="0s">
                         <p>
                             <h4><i class="fa fa-fw fa-envelope-o"></i> <a href="mailto:gibsjose@mail.gvsu.edu">gibsjose@mail.gvsu.edu</a></h4>
                             <h4><i class="fa fa-fw fa-key"></i> <a href="https://keybase.io/gibsjose/key.asc">GPG Key Fingerprint: </a> <code class="language-none">1BC4 00F8 F7A9 04DF</code></h4>
