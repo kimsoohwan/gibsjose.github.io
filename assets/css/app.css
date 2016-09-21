@@ -111,7 +111,9 @@ i.fa-check {
 .highlighted-yellow {
     background-color: rgba(255, 255, 56, 0.6);
 }
-
+.inverted-icon {
+    color: #2c2c2c;
+}
 h3.logo {
     font-family: 'Righteous', cursive !important;
     font-weight: 700 !important;
