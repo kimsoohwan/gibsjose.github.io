@@ -113,6 +113,7 @@ i.fa-check {
 }
 .microamps-codeblock {
     height: 200px;
+    width: 80%;
 }
 h3.logo {
     font-family: 'Righteous', cursive !important;
