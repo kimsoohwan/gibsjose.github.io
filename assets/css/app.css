@@ -115,6 +115,9 @@ i.fa-check {
     color: #2C2C2C !important;
     background: #D4ABE6 !important;
 }
+pre {
+    white-space: pre-wrap;
+}
 h3.logo {
     font-family: 'Righteous', cursive !important;
     font-weight: 700 !important;
